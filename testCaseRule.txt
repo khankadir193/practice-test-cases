@@ -1,0 +1,6 @@
+// Check a returned value
+expect(divide(10, 2)).toBe(5);
+
+// Check whether a function throws an error
+expect(() => divide(10, 0))
+    .toThrow("Cannot divide by zero");
