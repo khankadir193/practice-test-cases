@@ -4,3 +4,9 @@ expect(divide(10, 2)).toBe(5);
 // Check whether a function throws an error
 expect(() => divide(10, 0))
     .toThrow("Cannot divide by zero");
+
+
+1. What are they?
+- beforeEach() runs before each test in its scope.
+- afterEach() runs after each test in its scope.
+They're useful when multiple tests need the same setup or cleanup.
