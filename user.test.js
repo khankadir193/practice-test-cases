@@ -28,5 +28,22 @@ test('check missing property is exist or not',()=>{
     expect(getSkills()).toContain('Javascript');
 });
 
+test('check age is not to be the 25',()=>{
+    expect(getUser().age).not.toBe(25);
+});
+
+test('check age is to be greaterthan 25',()=>{
+    expect(getUser().age).toBeGreaterThan(25);
+});
+
+test('check age is to be lessthan 31',()=>{
+    expect(getUser().age).toBeLessThan(31);
+});
+
+test('check whether user rooe should be match',()=>{
+    expect(getUser().role).toMatch('Software Engineer');
+});
+
+
 
 
