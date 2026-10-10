@@ -1,0 +1,15 @@
+{
+  "name": "jest-practice",
+  "version": "1.0.0",
+  "description": "'this is the jest practice'",
+  "license": "ISC",
+  "author": "Abdul Kadir Khan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
